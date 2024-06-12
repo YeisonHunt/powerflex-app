@@ -19,19 +19,14 @@ git clone https://github.com/your-username/sprocket-factory-api.git
 cd sprocket-factory-api
 ```
 
-Install dependencies:
 
-```bash
-npm install
-```
-
-Build the Docker images:
+2. Build the Docker images:
 
 ```bash
 docker-compose build
 ```
 
-Start the Docker containers:
+3. Start the Docker containers:
 
 ```bash
 docker-compose up -d
@@ -40,7 +35,7 @@ docker-compose up -d
 ## Important step 👀
 
 
-Seed the database with sample data:
+4. Seed the database with sample data:
 ```bash
 docker exec -it powerflex-app-1 npm run seed
 ```
