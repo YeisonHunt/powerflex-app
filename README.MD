@@ -1,4 +1,6 @@
- Sprocket Factory API
+
+Sprocket Factory API
+==============
 
 This is a RESTful API for managing sprocket factory data and sprockets, built with Node.js and PostgreSQL.
 
