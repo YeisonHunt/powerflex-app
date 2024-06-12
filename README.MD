@@ -40,7 +40,7 @@ docker-compose up -d
 docker exec -it powerflex-app-1 npm run seed
 ```
 
-Here powerflex-app-1 it's the app name for our node server.
+Here `powerflex-app-1` it's the app name for our node server.
 If for some reason this is not the app name generated for you, please use this command to get the name:
 
 ```bash
@@ -48,6 +48,7 @@ docker ps
 ```
 
 That will list the docker instance running and you can extract the one running on port 3000.
+![docker app name](https://i.ibb.co/4RM6mfb/docker.png)
 
 ## How to use?
 
